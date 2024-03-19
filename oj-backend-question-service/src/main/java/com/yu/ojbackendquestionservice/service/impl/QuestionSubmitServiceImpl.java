@@ -32,11 +32,6 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 import java.util.stream.Collectors;
 
-/**
-* @author LIN
-* @description 针对表【question_submit(题目提交)】的数据库操作Service实现
-* @createDate 2024-01-02 22:23:45
-*/
 @Service
 public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper, QuestionSubmit>
     implements QuestionSubmitService {

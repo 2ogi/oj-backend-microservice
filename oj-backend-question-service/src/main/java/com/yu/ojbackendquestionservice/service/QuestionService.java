@@ -10,11 +10,6 @@ import com.yu.ojbackendmodel.model.vo.QuestionVO;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
-* @author LIN
-* @description 针对表【question(题目)】的数据库操作Service
-* @createDate 2024-01-02 22:04:01
-*/
 public interface QuestionService extends IService<Question> {
     /**
      * 校验

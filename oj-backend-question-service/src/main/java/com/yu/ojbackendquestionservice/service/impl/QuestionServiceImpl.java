@@ -31,11 +31,6 @@ import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-/**
-* @author LIN
-* @description 针对表【question(题目)】的数据库操作Service实现
-* @createDate 2024-01-02 22:04:01
-*/
 @Service
 public class QuestionServiceImpl extends ServiceImpl<QuestionMapper, Question>
     implements QuestionService {

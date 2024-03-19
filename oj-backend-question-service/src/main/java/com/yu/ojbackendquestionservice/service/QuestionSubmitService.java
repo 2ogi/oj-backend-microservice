@@ -9,12 +9,6 @@ import com.yu.ojbackendmodel.model.entity.QuestionSubmit;
 import com.yu.ojbackendmodel.model.entity.User;
 import com.yu.ojbackendmodel.model.vo.QuestionSubmitVO;
 
-
-/**
-* @author LIN
-* @description 针对表【question_submit(题目提交)】的数据库操作Service
-* @createDate 2024-01-02 22:23:45
-*/
 public interface QuestionSubmitService extends IService<QuestionSubmit> {
     /**
      * 题目提交

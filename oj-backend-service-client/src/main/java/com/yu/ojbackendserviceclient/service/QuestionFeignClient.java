@@ -16,11 +16,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
-* @author LIN
-* @description 针对表【question(题目)】的数据库操作Service
-* @createDate 2024-01-02 22:04:01
-*/
 @FeignClient(name = "oj-backend-question-service", path = "/api/question/inner")
 public interface QuestionFeignClient {
 
